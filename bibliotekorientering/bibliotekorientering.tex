@@ -1,6 +1,13 @@
 \documentclass{beamer}
+\definecolor{links}{HTML}{2A1B81}
 
 \usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=,
+  urlcolor=links
+}
 
 \usetheme{Copenhagen}
 \usecolortheme{seahorse}
@@ -13,16 +20,30 @@
   Dronning Mauds Minne Høgskole
 }
 
-\date{Høsten 2018}
+\date[DMMH 2018]{DMMH, høsten 2018}
 \logo{\includegraphics[height=1.5cm]{media/logo.png}}
 
 \begin{document}
 
 \frame{\titlepage}
-
 \begin{frame}
-  \frametitle{Hvilke tjenester kan biblioteket tilby?}
-  Biblioteket kan tilby pensumlitteratur.
+  \frametitle{Innhold}
+  \tableofcontents
+\end{frame}
+
+\section{Hvilke tjenester kan biblioteket tilby?}
+\begin{frame}
+  \frametitle{Pensumlitteratur og annen støttelitteratur}
+  Bibliotekets samling består blant annet av \alert{pensumlitteratur} og annen \alert{støttelitteratur}. Det er flere eksemplarer tilgjengelig, og som regel ett eksemplar som bare kan leses i bibliotekets lokaler.
+
+  \begin{block}{Bemerkning}
+    Bruk søketjenesten Oria til å finne fram litteraturen.
+  \end{block}
+\end{frame}
+  
+\begin{frame}
+  \frametitle{Vitenskapelig arkiv}
+  I den digitale samlingen har vi et vitenskapelig arkiv med forskningsresultater fra DMMH og fremragende studentoppgaver.
 \end{frame}
 
 \end{document}
