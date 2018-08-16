@@ -13,6 +13,13 @@
 \usetheme{Copenhagen}
 \usecolortheme{seahorse}
 
+\definecolor{DMMH}{HTML}{F9F5EB}
+
+\setbeamercolor{palette primary}{bg=DMMH,fg=black}
+\setbeamercolor{palette secondary}{bg=DMMH,fg=black}
+\setbeamercolor{palette tertiary}{bg=DMMH,fg=black}
+\setbeamercolor{palette quaternary}{bg=DMMH,fg=black}
+
 \title{Bibliotekorientering}
 \author{Thomas Rambø\inst{1}}
 \institute[DMMH-biblioteket]{
@@ -22,7 +29,7 @@
 }
 
 \date[DMMH 2018]{DMMH, høsten 2018}
-\logo{\includegraphics[height=1.5cm]{media/logo.png}}
+\logo{\includegraphics[height=1cm]{media/logo.png}}
 
 \AtBeginSection[]
 {
@@ -85,7 +92,7 @@
     \column{0.5\textwidth}
     \begin{figure}
       \caption{Forsiden av en bacheloroppgave i BIBSYS Brage.}
-      \includegraphics[width=0.5\textwidth]{media/front-dahle.png}
+      \includegraphics[width=0.6\textwidth]{media/front-dahle.png}
     \end{figure}
   \end{columns}
 \end{frame}
@@ -118,9 +125,57 @@
   \frametitle{Lese og jobbe på biblioteket}
   Det er sittegrupper i hoveddelen av biblioteket, arbeidsplasser og grupperom oppe på mesaninen og bord for gruppearbeid over gangen.
 \end{frame}
+
 \subsection{Finne pensumlitteratur}
 \begin{frame}
   \frametitle{Finne pensumlitteratur}
   Bruk \href{https://studier.dmmh.no}{studier.dmmh.no} til å finne pensumlister, og søk opp referanser i \href{http://bibsys-almaprimo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?vid=DMMH}{Oria} for å finne plassering og evt. sette seg på venteliste.
+\end{frame}
+
+\subsection{Utlån, fornying og retur}
+\begin{frame}
+  \frametitle{Utlån og retur}
+
+  \begin{columns}
+    \column{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.8\textwidth]{media/utlaansautomat.png}
+
+    \column{0.5\textwidth}
+    \begin{itemize}
+    \item Du kan låne og returnere bøker selv ved å bruke selvbetjentautomaten som står i gangen. For å låne bøker trengs \alert{studentkortet}.
+    \item Vi som står i skranken kan også registrere lån og retur for deg, for eksempel hvis du har glemt studentkortet eller trenger å fornye lån.
+    \end{itemize}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Litt å merke seg om utlån}
+
+  \begin{itemize}
+  \item Studentkortet ditt fungerer som lånekort, men du kan også bruke \alert{Studentbevis-appen} på iOS og Android-telefoner. Hvis du får problemer med kortet kan du alltid kontakte oss i skranken.
+  \item Alt materiale på biblioteket er utstyrt med \alert{alarm}, og alarmen kan bare deaktiveres når materialet blir registrert som lån på din konto.
+  \item Materialet i pensumsamlingen er merket med rød tape og kan lånes ut i 2 uker. Øvrig materiale har vanligvis lånetid på 4 uker.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Fornying av lån}
+
+  \begin{itemize}
+  \item På forfallsdato blir du automatisk kontaktet av biblioteksystemet, og du må levere materialet.
+  \item Du kan når som helst \href{https://bibsys-almaprimo.hosted.exlibrisgroup.com/primo_library/libweb/action/login.do?loginFn=signin&vid=DMMH&targetURL=https://bibsys-almaprimo.hosted.exlibrisgroup.com/primo_library/libweb/action/myAccountMenu.do?vid=DMMH&fromLink=gotoMyAccountUI}{fornye lån i Oria}, forutsatt at ingen står på venteliste på materialet.
+  \item Lån + fornying er satt til maksimalt 45 dager for pensum og 90 dager for øvrig materiale. Kontakt biblioteket for å låne materialet lengre.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Reservering og bestilling}
+
+  \begin{itemize}
+  \item Bøker som er lånt ut kan reserveres av andre.
+  \item Når boka blir tilgjengelig sendes en hentebeskjed til neste i køen.
+  \item Bestillinger fra lager og fra andre bibliotek gjør også at hentebeskjed sendes.
+  \end{itemize}
 \end{frame}
 \end{document}
